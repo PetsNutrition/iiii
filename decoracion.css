@@ -2,6 +2,8 @@ body{
     display: flex;
     background-image: url("mountain-9726891.jpg"); /* tu imagen */
   background-repeat: no-repeat; 
-  background-size: cover;        /* evita el mosaico */
+  background-size: contain;  
+    background-position: center;/* evita el mosaico */
              /* hace que la imagen cubra todo */         /* centra la imagen */
+
 }
